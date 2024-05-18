@@ -1,0 +1,16 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public" 
+  },
+  "keywords": [],
+  "author": "xuandong",
+  "license": "ISC",
+  "description": "fontend",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
