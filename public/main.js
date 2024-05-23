@@ -1,10 +1,10 @@
 // Author: https://github.com/xuanndong/xuanndong
 
 const topMenu = document.getElementById('ct-top-menu')
-const togglleTopmenuIcon = document.getElementById('ct-toggle-top-menu-icon');
+const toggleTopmenuIcon = document.getElementById("ct-toggle-top-menu-icon");
 
 document.addEventListener("click", e => {
-    if(togglleTopmenuIcon.contains(e.target)){
+    if(toggleTopmenuIcon.contains(e.target)){
         // click to toggle top menu item
         topMenu.classList.toggle('ct-topmenu-expanded')
         topMenu.classList.toggle('hidden')
@@ -15,4 +15,4 @@ document.addEventListener("click", e => {
             topMenu.classList.add('hidden')
         }
     }
-})
+}) 
