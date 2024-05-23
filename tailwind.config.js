@@ -17,6 +17,9 @@ module.exports = {
       },
       animation: {
         slideDown: 'slideDown 0.3s ease-in-out'
+      },
+      backgroundImage: {
+        'background.jpg': 'url("./image/background.jpg")'
       }
     },
   },
