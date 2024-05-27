@@ -31,5 +31,5 @@
     @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center
 }
 .ct-button {
-    @apply uppercase tracking-wider py-4 px-7 text-sm font-semibold cursor-pointer hover:bg-opacity-90
+    @apply uppercase tracking-wider py-4 px-7 text-sm font-semibold cursor-pointer hover:bg-opacity-95
 }
